@@ -1,0 +1,35 @@
+body {
+    background-image: url(./assets/bandeng.jpg);
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans MT';
+    word-spacing: 10px;
+    font-size: 36px;
+}
+div {
+    width: 520px;
+    height: 590px;
+    background: rgba(212, 221, 223, 0.5);
+    border-radius: 20px;
+    padding-top: 1rem;
+    margin: 2rem auto;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3.2rem;
+    margin-top: 3rem;
+    width: 80%;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #1c8adb;
+  }
+  button:hover {
+    cursor: pointer;
+    background: #235274;
+    color: white;
+  }

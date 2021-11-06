@@ -1,0 +1,85 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+  background: #63a4ee;
+}
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+.menu {
+  float: right;
+  background: #63a4ee;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0px;
+  background: #63a4ee;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+/* Akhir Navbar */
+
+.sejarah {
+  margin: 0 auto;
+  width: 1000px;
+  background: rgba(212, 221, 223, 0.5);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: justify;
+  line-height: 25px;
+}
+p {
+  margin-bottom: 10px;
+}
+footer {
+  width: 100%;
+  margin-top: 2rem;
+  line-height: 50px;
+  background: #63a4ee;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+

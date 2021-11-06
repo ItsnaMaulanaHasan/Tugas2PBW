@@ -1,0 +1,120 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    background: #63a4ee;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 700;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.menu {
+    float: right;
+    background: #63a4ee;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #63a4ee;
+    z-index: 1;
+}
+.menu2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Akhir Navbar */
+
+.gambar1 {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 3rem 2rem 0rem 3rem;
+}
+.gambar2 {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0rem 3rem 0rem 2rem;
+}
+#kebudayaan {
+    margin: auto;
+    display: flex;
+    margin-bottom: 1rem;
+}
+#kebudayaan2 {
+    margin: auto;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.kolom {
+    margin: 4rem 3rem 0rem 0rem;
+    font-size: 20px;
+    color: #364f6b;
+    text-align: justify;
+}
+.kolom2 {
+    margin: 0rem 3rem 1rem 3rem;
+    font-size: 20px;
+    text-align: justify;
+    color: #364f6b; 
+}
+.kolom3 {
+    margin: 0rem 0rem 0rem 3rem;
+    font-size: 20px;
+    color: #364f6b;
+    text-align: justify;
+}
+.kolom4 {
+    margin: 0rem 3rem 1rem 3rem;
+    font-size: 20px;
+    text-align: justify;
+    color: #364f6b; 
+}
+p {
+    margin-bottom: 10px;
+}
+footer {
+    bottom: 0px;
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 50px;
+    background: #63a4ee;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
